@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD09C8A2B4BF8E100B1E0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C892B4BF8E100B1E0D8 /* AppDelegate.swift */; };
+		8CD09C8C2B4BF8E100B1E0D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C8B2B4BF8E100B1E0D8 /* SceneDelegate.swift */; };
+		8CD09C8E2B4BF8E100B1E0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C8D2B4BF8E100B1E0D8 /* ViewController.swift */; };
+		8CD09C912B4BF8E100B1E0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09C8F2B4BF8E100B1E0D8 /* Main.storyboard */; };
+		8CD09C942B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C922B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld */; };
+		8CD09C962B4BF8E500B1E0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09C952B4BF8E500B1E0D8 /* Assets.xcassets */; };
+		8CD09C992B4BF8E500B1E0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09C972B4BF8E500B1E0D8 /* LaunchScreen.storyboard */; };
+		8CD09CA42B4BF8E600B1E0D8 /* Riot_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09CA32B4BF8E600B1E0D8 /* Riot_TestTests.swift */; };
+		8CD09CAE2B4BF8E600B1E0D8 /* Riot_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09CAD2B4BF8E600B1E0D8 /* Riot_TestUITests.swift */; };
+		8CD09CB02B4BF8E600B1E0D8 /* Riot_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09CAF2B4BF8E600B1E0D8 /* Riot_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD09CA02B4BF8E600B1E0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD09C7E2B4BF8E100B1E0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD09C852B4BF8E100B1E0D8;
+			remoteInfo = "Riot Test";
+		};
+		8CD09CAA2B4BF8E600B1E0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD09C7E2B4BF8E100B1E0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD09C852B4BF8E100B1E0D8;
+			remoteInfo = "Riot Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CD09C862B4BF8E100B1E0D8 /* Riot Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riot Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09C892B4BF8E100B1E0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD09C8B2B4BF8E100B1E0D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CD09C8D2B4BF8E100B1E0D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CD09C902B4BF8E100B1E0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD09C932B4BF8E100B1E0D8 /* Riot_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Riot_Test.xcdatamodel; sourceTree = "<group>"; };
+		8CD09C952B4BF8E500B1E0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD09C982B4BF8E500B1E0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD09C9A2B4BF8E500B1E0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD09C9F2B4BF8E600B1E0D8 /* Riot TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riot TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09CA32B4BF8E600B1E0D8 /* Riot_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riot_TestTests.swift; sourceTree = "<group>"; };
+		8CD09CA92B4BF8E600B1E0D8 /* Riot TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riot TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09CAD2B4BF8E600B1E0D8 /* Riot_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riot_TestUITests.swift; sourceTree = "<group>"; };
+		8CD09CAF2B4BF8E600B1E0D8 /* Riot_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riot_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD09C832B4BF8E100B1E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09C9C2B4BF8E600B1E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09CA62B4BF8E600B1E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD09C7D2B4BF8E100B1E0D8 = {
+			isa = PBXGroup;
+			children = (
+				8CD09C882B4BF8E100B1E0D8 /* Riot Test */,
+				8CD09CA22B4BF8E600B1E0D8 /* Riot TestTests */,
+				8CD09CAC2B4BF8E600B1E0D8 /* Riot TestUITests */,
+				8CD09C872B4BF8E100B1E0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD09C872B4BF8E100B1E0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09C862B4BF8E100B1E0D8 /* Riot Test.app */,
+				8CD09C9F2B4BF8E600B1E0D8 /* Riot TestTests.xctest */,
+				8CD09CA92B4BF8E600B1E0D8 /* Riot TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD09C882B4BF8E100B1E0D8 /* Riot Test */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09C892B4BF8E100B1E0D8 /* AppDelegate.swift */,
+				8CD09C8B2B4BF8E100B1E0D8 /* SceneDelegate.swift */,
+				8CD09C8D2B4BF8E100B1E0D8 /* ViewController.swift */,
+				8CD09C8F2B4BF8E100B1E0D8 /* Main.storyboard */,
+				8CD09C952B4BF8E500B1E0D8 /* Assets.xcassets */,
+				8CD09C972B4BF8E500B1E0D8 /* LaunchScreen.storyboard */,
+				8CD09C9A2B4BF8E500B1E0D8 /* Info.plist */,
+				8CD09C922B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld */,
+			);
+			path = "Riot Test";
+			sourceTree = "<group>";
+		};
+		8CD09CA22B4BF8E600B1E0D8 /* Riot TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09CA32B4BF8E600B1E0D8 /* Riot_TestTests.swift */,
+			);
+			path = "Riot TestTests";
+			sourceTree = "<group>";
+		};
+		8CD09CAC2B4BF8E600B1E0D8 /* Riot TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09CAD2B4BF8E600B1E0D8 /* Riot_TestUITests.swift */,
+				8CD09CAF2B4BF8E600B1E0D8 /* Riot_TestUITestsLaunchTests.swift */,
+			);
+			path = "Riot TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD09C852B4BF8E100B1E0D8 /* Riot Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD09CB32B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot Test" */;
+			buildPhases = (
+				8CD09C822B4BF8E100B1E0D8 /* Sources */,
+				8CD09C832B4BF8E100B1E0D8 /* Frameworks */,
+				8CD09C842B4BF8E100B1E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Riot Test";
+			productName = "Riot Test";
+			productReference = 8CD09C862B4BF8E100B1E0D8 /* Riot Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD09C9E2B4BF8E600B1E0D8 /* Riot TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD09CB62B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot TestTests" */;
+			buildPhases = (
+				8CD09C9B2B4BF8E600B1E0D8 /* Sources */,
+				8CD09C9C2B4BF8E600B1E0D8 /* Frameworks */,
+				8CD09C9D2B4BF8E600B1E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD09CA12B4BF8E600B1E0D8 /* PBXTargetDependency */,
+			);
+			name = "Riot TestTests";
+			productName = "Riot TestTests";
+			productReference = 8CD09C9F2B4BF8E600B1E0D8 /* Riot TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD09CA82B4BF8E600B1E0D8 /* Riot TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD09CB92B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot TestUITests" */;
+			buildPhases = (
+				8CD09CA52B4BF8E600B1E0D8 /* Sources */,
+				8CD09CA62B4BF8E600B1E0D8 /* Frameworks */,
+				8CD09CA72B4BF8E600B1E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD09CAB2B4BF8E600B1E0D8 /* PBXTargetDependency */,
+			);
+			name = "Riot TestUITests";
+			productName = "Riot TestUITests";
+			productReference = 8CD09CA92B4BF8E600B1E0D8 /* Riot TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD09C7E2B4BF8E100B1E0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8CD09C852B4BF8E100B1E0D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8CD09C9E2B4BF8E600B1E0D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CD09C852B4BF8E100B1E0D8;
+					};
+					8CD09CA82B4BF8E600B1E0D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CD09C852B4BF8E100B1E0D8;
+					};
+				};
+			};
+			buildConfigurationList = 8CD09C812B4BF8E100B1E0D8 /* Build configuration list for PBXProject "Riot Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD09C7D2B4BF8E100B1E0D8;
+			productRefGroup = 8CD09C872B4BF8E100B1E0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD09C852B4BF8E100B1E0D8 /* Riot Test */,
+				8CD09C9E2B4BF8E600B1E0D8 /* Riot TestTests */,
+				8CD09CA82B4BF8E600B1E0D8 /* Riot TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD09C842B4BF8E100B1E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09C992B4BF8E500B1E0D8 /* LaunchScreen.storyboard in Resources */,
+				8CD09C962B4BF8E500B1E0D8 /* Assets.xcassets in Resources */,
+				8CD09C912B4BF8E100B1E0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09C9D2B4BF8E600B1E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09CA72B4BF8E600B1E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD09C822B4BF8E100B1E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09C8E2B4BF8E100B1E0D8 /* ViewController.swift in Sources */,
+				8CD09C8A2B4BF8E100B1E0D8 /* AppDelegate.swift in Sources */,
+				8CD09C8C2B4BF8E100B1E0D8 /* SceneDelegate.swift in Sources */,
+				8CD09C942B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09C9B2B4BF8E600B1E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09CA42B4BF8E600B1E0D8 /* Riot_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD09CA52B4BF8E600B1E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09CB02B4BF8E600B1E0D8 /* Riot_TestUITestsLaunchTests.swift in Sources */,
+				8CD09CAE2B4BF8E600B1E0D8 /* Riot_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD09CA12B4BF8E600B1E0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD09C852B4BF8E100B1E0D8 /* Riot Test */;
+			targetProxy = 8CD09CA02B4BF8E600B1E0D8 /* PBXContainerItemProxy */;
+		};
+		8CD09CAB2B4BF8E600B1E0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD09C852B4BF8E100B1E0D8 /* Riot Test */;
+			targetProxy = 8CD09CAA2B4BF8E600B1E0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD09C8F2B4BF8E100B1E0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD09C902B4BF8E100B1E0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD09C972B4BF8E500B1E0D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD09C982B4BF8E500B1E0D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD09CB12B4BF8E600B1E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD09CB22B4BF8E600B1E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD09CB42B4BF8E600B1E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Riot Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD09CB52B4BF8E600B1E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Riot Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CD09CB72B4BF8E600B1E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riot Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riot Test";
+			};
+			name = Debug;
+		};
+		8CD09CB82B4BF8E600B1E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riot Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riot Test";
+			};
+			name = Release;
+		};
+		8CD09CBA2B4BF8E600B1E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Riot Test";
+			};
+			name = Debug;
+		};
+		8CD09CBB2B4BF8E600B1E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DevKDucK.Riot-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Riot Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD09C812B4BF8E100B1E0D8 /* Build configuration list for PBXProject "Riot Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09CB12B4BF8E600B1E0D8 /* Debug */,
+				8CD09CB22B4BF8E600B1E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD09CB32B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09CB42B4BF8E600B1E0D8 /* Debug */,
+				8CD09CB52B4BF8E600B1E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD09CB62B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09CB72B4BF8E600B1E0D8 /* Debug */,
+				8CD09CB82B4BF8E600B1E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD09CB92B4BF8E600B1E0D8 /* Build configuration list for PBXNativeTarget "Riot TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09CBA2B4BF8E600B1E0D8 /* Debug */,
+				8CD09CBB2B4BF8E600B1E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CD09C922B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CD09C932B4BF8E100B1E0D8 /* Riot_Test.xcdatamodel */,
+			);
+			currentVersion = 8CD09C932B4BF8E100B1E0D8 /* Riot_Test.xcdatamodel */;
+			path = Riot_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CD09C7E2B4BF8E100B1E0D8 /* Project object */;
+}
