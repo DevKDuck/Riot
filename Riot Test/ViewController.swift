@@ -14,12 +14,12 @@ class ViewController: UIViewController {
         //MARK: Observable 생성
         //1. Create 를 이용해서 Observable을 직접 구현
         Observable<Int>.create{ (observer) -> Disposable in
-            observable.on(.next(0))
-            observable.onNext(1)
+            observer.on(.next(0))
+            observer.onNext(1)
             
-            observable.onCompleted()
+            observer.onCompleted()
             
-            return Disposable.create()
+            return Disposables.create()
         }
         
         //2. From 을 이용

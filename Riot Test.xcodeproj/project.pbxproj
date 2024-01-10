@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C069B722B4E3AB8005B0928 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C069B712B4E3AB8005B0928 /* PublishSubject.swift */; };
+		8CAF89AE2B4D622800A7A946 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 8CAF89AD2B4D622800A7A946 /* RxBlocking */; };
+		8CAF89B02B4D622800A7A946 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8CAF89AF2B4D622800A7A946 /* RxBlocking-Dynamic */; };
+		8CAF89B22B4D622800A7A946 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8CAF89B12B4D622800A7A946 /* RxCocoa */; };
+		8CAF89B42B4D622800A7A946 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8CAF89B32B4D622800A7A946 /* RxCocoa-Dynamic */; };
+		8CAF89B62B4D622800A7A946 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8CAF89B52B4D622800A7A946 /* RxRelay */; };
 		8CD09C8A2B4BF8E100B1E0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C892B4BF8E100B1E0D8 /* AppDelegate.swift */; };
 		8CD09C8C2B4BF8E100B1E0D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C8B2B4BF8E100B1E0D8 /* SceneDelegate.swift */; };
 		8CD09C8E2B4BF8E100B1E0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09C8D2B4BF8E100B1E0D8 /* ViewController.swift */; };
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C069B712B4E3AB8005B0928 /* PublishSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSubject.swift; sourceTree = "<group>"; };
+		8C069B732B4E3E88005B0928 /* PublishSubjectTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubjectTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8CD09C862B4BF8E100B1E0D8 /* Riot Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riot Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD09C892B4BF8E100B1E0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD09C8B2B4BF8E100B1E0D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAF89B62B4D622800A7A946 /* RxRelay in Frameworks */,
+				8CAF89B42B4D622800A7A946 /* RxCocoa-Dynamic in Frameworks */,
+				8CAF89B22B4D622800A7A946 /* RxCocoa in Frameworks */,
+				8CAF89AE2B4D622800A7A946 /* RxBlocking in Frameworks */,
+				8CAF89B02B4D622800A7A946 /* RxBlocking-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +122,8 @@
 				8CD09C972B4BF8E500B1E0D8 /* LaunchScreen.storyboard */,
 				8CD09C9A2B4BF8E500B1E0D8 /* Info.plist */,
 				8CD09C922B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld */,
+				8C069B712B4E3AB8005B0928 /* PublishSubject.swift */,
+				8C069B732B4E3E88005B0928 /* PublishSubjectTest.playground */,
 			);
 			path = "Riot Test";
 			sourceTree = "<group>";
@@ -146,6 +161,13 @@
 			dependencies = (
 			);
 			name = "Riot Test";
+			packageProductDependencies = (
+				8CAF89AD2B4D622800A7A946 /* RxBlocking */,
+				8CAF89AF2B4D622800A7A946 /* RxBlocking-Dynamic */,
+				8CAF89B12B4D622800A7A946 /* RxCocoa */,
+				8CAF89B32B4D622800A7A946 /* RxCocoa-Dynamic */,
+				8CAF89B52B4D622800A7A946 /* RxRelay */,
+			);
 			productName = "Riot Test";
 			productReference = 8CD09C862B4BF8E100B1E0D8 /* Riot Test.app */;
 			productType = "com.apple.product-type.application";
@@ -219,7 +241,7 @@
 			);
 			mainGroup = 8CD09C7D2B4BF8E100B1E0D8;
 			packageReferences = (
-				8C7DD87D2B4D55C500DAA741 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 8CD09C872B4BF8E100B1E0D8 /* Products */;
 			projectDirPath = "";
@@ -264,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C069B722B4E3AB8005B0928 /* PublishSubject.swift in Sources */,
 				8CD09C8E2B4BF8E100B1E0D8 /* ViewController.swift in Sources */,
 				8CD09C8A2B4BF8E100B1E0D8 /* AppDelegate.swift in Sources */,
 				8CD09C8C2B4BF8E100B1E0D8 /* SceneDelegate.swift in Sources */,
@@ -622,7 +645,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8C7DD87D2B4D55C500DAA741 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -631,6 +654,34 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CAF89AD2B4D622800A7A946 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		8CAF89AF2B4D622800A7A946 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		8CAF89B12B4D622800A7A946 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		8CAF89B32B4D622800A7A946 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		8CAF89B52B4D622800A7A946 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CAF89AC2B4D622800A7A946 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8CD09C922B4BF8E100B1E0D8 /* Riot_Test.xcdatamodeld */ = {
