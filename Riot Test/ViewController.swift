@@ -6,55 +6,61 @@
 //
 
 import UIKit
-import RxSwift
+//import RxCocoa
+//import RxSwift
 
 class ViewController: UIViewController {
     
-    func makingObservable(){
-        //MARK: Observable 생성
-        //1. Create 를 이용해서 Observable을 직접 구현
-        Observable<Int>.create{ (observer) -> Disposable in
-            observer.on(.next(0))
-            observer.onNext(1)
-            
-            observer.onCompleted()
-            
-            return Disposables.create()
-        }
-        
-        //2. From 을 이용
-        //from 연산자는 파라미터로 전달한 배열에 있는 요소를 순서대로 방출하고 Completed 이벤트를 전달하는 Observable을 생성함
-        Observable.from([0,1])
-        
-    }
+//    func makingObservable(){
+//        //MARK: Observable 생성
+//        //1. Create 를 이용해서 Observable을 직접 구현
+//        Observable<Int>.create{ (observer) -> Disposable in
+//            observer.on(.next(0))
+//            observer.onNext(1)
+//            
+//            observer.onCompleted()
+//            
+//            return Disposables.create()
+//        }
+//        
+//        //2. From 을 이용
+//        //from 연산자는 파라미터로 전달한 배열에 있는 요소를 순서대로 방출하고 Completed 이벤트를 전달하는 Observable을 생성함
+//        Observable.from([0,1])
+//        
+//    }
     
 
-    var p = Person(name: "경덕", year: 1995)
+//    var p = Person(name: "경덕", year: 1995)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         // Do any additional setup after loading the view.
-        print(p.age)
-     
+        goPsj()
+    }
+    
+    func goPsj(){
+        let vc = Psj()
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 
 }
 
-class Person{
-    var name: String
-    var year: Int
-    
-    init(name: String, year: Int) {
-        self.name = name
-        self.year = year
-    }
-    
-    var age: Int {
-        return 2024 - year
-    }
-    
-}
+//class Person{
+//    var name: String
+//    var year: Int
+//    
+//    init(name: String, year: Int) {
+//        self.name = name
+//        self.year = year
+//    }
+//    
+//    var age: Int {
+//        return 2024 - year
+//    }
+//    
+//}
 
 
 /*
